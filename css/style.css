@@ -1,0 +1,327 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 16px;
+    background-color: rgb(15,15,15);
+    color: black;
+    font-family:"oxygen,san serif";
+    overflow-x:hidden;
+
+}
+.nav{
+    height: 140px;
+    width: 100%;
+    left: 0px;
+    font-family: gilroy-bold;
+    padding-top: 30px;
+}
+.nav-header{
+    display:block;
+}
+.nav-title{
+    margin-left: 200px;
+
+}
+.nav-title img{
+    height:67px;
+}
+.nav-links{
+    float: right;
+    right: 0px;
+    margin-top: 25px;
+    margin-right: 200px;
+    font-size: 18px;
+
+}
+.nav-links>a{
+    display: inline-block;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.form{
+    margin-top: 100px;
+}
+#form-title{
+    font-family: gilroy-bold;
+    font-size: 10rem;
+    color: white;
+    font-weight: 390;
+    margin-bottom: 30px;
+    padding-left:200px;
+    padding-right: 200px;
+    line-height: 120px;
+    font-weight:bold;
+
+
+}
+.form-desc{
+    font-family: gilroy-bold;
+    font-size: 30px !important;
+    color: white!important;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-weight: bold;
+
+
+}
+#form-button{
+    margin-top: 50px;
+    margin-bottom: 120px;
+
+}
+#touch{
+    border-radius: 37px;
+    height: 80px;
+    font-size: 26px;
+    width: 350px;
+    font-weight: bold;
+    font-family: gilroy-bold;
+}
+@media (min-width:767px) and (max-width:991) {
+    #form-title{
+        font-family: gilroy-bold;
+        font-size: 9rem;
+        color: white;
+        font-weight: 390;
+        margin-bottom: 30px;
+        padding-left: 100px;
+        padding-right: 100px;
+        line-height: 120px;
+        font-weight: bold;
+    
+    }
+    touch{
+        border-radius: 37px;
+        height: 60px;
+        font-size: 23px;
+        width: 250px;
+        font-weight: bold;
+        font-family: gilroy-bold;
+    }
+
+
+}
+@media (max-width:767px)
+{
+    .form{
+        margin-top:300px;
+    }
+    #form-title{
+        font-family: gilroy-bold;
+        font-size: 9rem;
+        color: white;
+        font-weight: 390;
+        margin-bottom: 30px;
+        padding-left: 40px;
+        padding-right: 200px;
+        line-height: 83px;
+        font-weight: bold;
+        text-orientation: left!important;
+    
+
+    }
+    .form-desc{
+        font-family: gilroy-bold;
+        font-size: 23px !important;
+        color: white!important;
+        padding-left: 40px;
+        padding-right: 180px;
+        font-weight: bold; 
+    }
+    #touch{
+        border-radius: 37px;
+        height: 60px;
+        font-size: 23px;
+        width: 230px;
+        font-weight: bold;
+        font-family: gilroy-bold;
+        padding-left: 28px;
+    }
+    #form-button{
+        margin-top: 40px;
+        margin-bottom: 120px;
+        padding-left: 40px;
+        width: auto;
+
+}
+@media (max-width:479px)
+{
+    #form-title{
+        font-family: gilroy-bold;
+        font-size: 9rem;
+        color: white;
+        font-weight: 390;
+        margin-bottom: 30px;
+        padding-left: 40px;
+        padding-right: 150px;
+        line-height: 120px;
+        font-weight: bold;
+        text-orientation: left !important
+    
+    }
+    .form-desc{
+        font-family: gilroy-bold;
+        font-size: 20px !important;
+        font-size: 20px !important;
+        color: white!important;
+        padding-left: 40px;
+        padding-right: 180px;
+        font-weight: bold;
+    }
+}
+    
+
+}
+/*animation part*/
+#anim{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#img1{
+    position: relative;
+    top: 45px;
+    left:-100px;
+    animation: first 5s 3;
+}
+#img2{
+    position: relative;
+    animation: second 5s 3;
+}
+#img3{
+    position: relative;
+    top: 45px;
+    left:100px;
+    animation: third 5s 3;
+}
+@keyframes first{
+    from{
+        top:200px;
+        left:100px;
+    }
+    to{
+        top:45px;
+        left:-100px;
+    }
+}
+@keyframes second{
+    from{
+        top:200px;
+        
+    }
+    to{
+        top: 15px;
+        
+    }
+}
+@keyframes third{
+    from{
+        top:200px;
+        left:-100px;
+    }
+    to{
+        top:45px;
+        left:100px;
+    }
+}
+#paren{
+    overflow: hidden;
+}
+#sofa{
+    height: 900px;
+    position: relative;
+    object-fit: cover;
+}
+.center{
+    color: white;
+    font-family: gilroy-bold;
+    font-size:100px;
+    font-weight: bold;
+    
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+
+    width: 1200px;
+    line-height: 100px;
+    position:absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+}
+#txt1{
+    color: white;
+    font-family: gilroy-bold;
+    font-size: 100px;
+}
+
+#txt2{
+    padding-top: 20px;
+    color: white;
+    font-family: gilroy-bold;
+    font-size: 35px;
+    line-height: 30px;
+}
+
+#txt3{
+    padding-top: 20px;
+    padding-right: 200px;
+
+    color: white;
+    font-family: gilroy-bold;
+    font-size: 18px;
+    line-height: 30px;
+}
+#txt4{
+    border-radius: 37px;
+    height: 80px;
+    font-size: 28px;
+    width: 300px;
+    color:black;
+    border: white;
+    font-weight: bold;
+    font-family: gilroy-bold;
+}
+#txt4:hover{
+    background-color: #171717;
+    color: white;
+    transition: 0.6s ease all;
+}
+#stick{
+    background-image:url(https://web-images.credcdn.in/_next/assets/images/home-page/neopop-image-mock.png) ;
+    min-height: 750px;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.slideshow-container{
+    position: relative;
+    background-color: black;
+
+}
+.myslides{
+    padding: 10px;
+    text-align: center;
+    display:none;
+
+
+}
+
+.myslides p{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.myslides q{
+    color: white;
+    font-family: sofia pro,sans-serif;
+    font-size: 22px;
+    font-weight: 350px;
+
+}
+
